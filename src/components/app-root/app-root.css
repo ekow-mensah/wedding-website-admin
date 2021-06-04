@@ -1,0 +1,98 @@
+header {
+  background : #5851ff;
+  color      : white;
+  height     : 56px;
+  display    : flex;
+  align-items: center;
+  box-shadow : 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+
+h1 {
+  font-size  : 1.4rem;
+  font-weight: 500;
+  color      : #fff;
+  padding    : 0 12px;
+}
+
+.logo {
+  height      : 20%;
+  width       : 20%;
+  display     : block;
+  margin-left : auto;
+  margin-right: auto;
+}
+
+.container {
+  width       : 50%;
+  margin-left : auto;
+  margin-right: auto;
+  font-family : 'Ubuntu', sans-serif;
+}
+
+.card {
+  padding      : 50px;
+  box-shadow   : 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition   : 0.3s;
+  border-radius: 5px;
+  width        : 40%;
+  margin-left  : auto;
+  margin-right : auto;
+}
+
+.card-title {
+  text-align: center;
+  font-size : 16px;
+}
+
+input[type=text],
+input[type=password] {
+  width      : 100%;
+  padding    : 12px 20px;
+  margin     : 8px 0px;
+  display    : inline-block;
+  border     : 1px solid #ccc;
+  box-sizing : border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-sign-in {
+  border       : 0;
+  background   : #153D1E;
+  color        : white;
+  font-size    : 14 px;
+  width        : 100%;
+  padding      : 10px;
+  margin-top   : 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 300px) {
+  .container {
+    width: 100%;
+  }
+
+  .logo {
+    height: 40%;
+    width : 40%;
+  }
+
+  .card {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 50% !important;
+  }
+
+  .card {
+    width: 40% !important;
+  }
+
+  .logo {
+    height: 20%;
+    width : 20%;
+  }
+}
